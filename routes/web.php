@@ -18,3 +18,4 @@ Route::put('/companies/{id}', [CompanyController::class, 'update'])->middleware(
 Route::delete('/companies/{id}', [CompanyController::class, 'destroy'])->middleware(['auth'])->name('companies.destroy');
 require __DIR__.'/auth.php';
 
+//hjhk
