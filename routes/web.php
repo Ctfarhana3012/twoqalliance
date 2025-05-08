@@ -9,7 +9,7 @@ Route::get('/', [CompanyController::class, 'index'])->middleware(['auth']);
 //Route::get('/dashboard', function () {
   //  return view('dashboard');
  //})->middleware(['auth'])->name('dashboard');
- 
+ // testingg
 Route::get('/homedashboard', [CompanyController::class, 'index'])->middleware(['auth'])->name('companies.index');
 Route::get('companies/create', [CompanyController::class, 'create'])->middleware(['auth'])-> name('companies.create');
 Route::post('companies/create', [CompanyController::class, 'store'])->middleware(['auth'])->name('companies.store');
